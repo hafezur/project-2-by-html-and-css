@@ -76,6 +76,10 @@ body {
     border-radius: 10px;
 }
 
+.text-decoration {
+    text-decoration: none;
+}
+
 .button-2 {
     width: 200px;
     height: 64px;
@@ -111,7 +115,55 @@ body {
 }
 
 .background-1 {
-    background-color: azure;
+
     width: 312px;
     height: 242px;
+}
+
+/* Footer */
+.footer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-role {
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.last {
+
+    height: 444px;
+    background: #161616;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li:hover {
+    background-color: cornflowerblue;
 }
